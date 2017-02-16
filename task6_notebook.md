@@ -34,7 +34,9 @@ ggplot(hydrograph_data, aes(date.time,flow))+
   xlab("Date")
 ```
 
-![](task6_notebook_files/figure-markdown_github/unnamed-chunk-1-1.png) Figure 1 Hydrograph for the Obed River
+![](task6_notebook_files/figure-markdown_github/unnamed-chunk-1-1.png)
+
+Figure 1 Hydrograph for the Obed River
 
 Table 1: Descriptive statistics of the Obed River
 

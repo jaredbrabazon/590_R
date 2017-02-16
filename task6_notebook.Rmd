@@ -28,6 +28,7 @@ ggplot(hydrograph_data, aes(date.time,flow))+
   ylab("Flow in cfs")+
   xlab("Date")
 ```
+
 Figure 1 Hydrograph for the Obed River
 
 
