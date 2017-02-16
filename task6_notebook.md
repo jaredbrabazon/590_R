@@ -38,8 +38,6 @@ ggplot(hydrograph_data, aes(date.time,flow))+
 
 Figure 1 Hydrograph for the Obed River
 
-Table 1: Descriptive statistics of the Obed River
-
 ``` r
 #find the max flow, minimum, and average flow and put them in a table
 max.flow <- max(hydrograph_data$flow)
@@ -51,6 +49,8 @@ print(hydrograph_stats)
 
     ##   max.flow min.flow avg.flow
     ## 1    36200     0.04      761
+
+Table 1: Descriptive statistics of the Obed River
 
 Discussion
 ----------
